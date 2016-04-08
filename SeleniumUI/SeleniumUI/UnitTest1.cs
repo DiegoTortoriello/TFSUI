@@ -16,6 +16,32 @@ namespace SeleniumUI
 
             driver.Navigate().GoToUrl("http:google.com");
 
+            //add comment
+
+        }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+
+            var driver = new ChromeDriver();
+
+            driver.Navigate().GoToUrl("http:gmail.com");
+
+            //add comment
+
+        }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+
+            var driver = new ChromeDriver();
+
+            driver.Navigate().GoToUrl("http:hotmail.com");
+
+            //add comment
+
         }
     }
 }
